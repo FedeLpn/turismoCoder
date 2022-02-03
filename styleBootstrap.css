@@ -21,3 +21,8 @@
 .accordion-item {
   padding: 1%;
 }
+
+.logo {
+  max-width: 100px;
+  max-height: 100px;
+}
