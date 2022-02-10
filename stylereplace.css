@@ -1,0 +1,255 @@
+body {
+    background-color: #f5f5ef;
+  }
+  
+  #Par {
+    width: 70%;
+    font-family: Copperplate, Papyrus, fantasy;
+    text-align: justify;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  h4 {
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f5f5ef;
+  }
+  
+  li {
+    float: inline-start;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(15, 15, 15);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #ddbc8d;
+  }
+  
+  .active {
+    background-color: #cd9341;
+  }
+  
+  .responsive {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h1 {
+    color: rgb(84, 152, 155);
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    text-align: center;
+  }
+  
+  #marca {
+    width: 300px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #cd9341;
+  }
+  
+  .cuota {
+    text-align: center;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Copperplate, Papyrus, fantasy;
+  }
+  
+  #parpro {
+    font-family: Copperplate, Papyrus, fantasy;
+    text-align: justify;
+  }
+  
+  .flex-container {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    padding-left: 1cm;
+    padding-right: 2cm;
+  }
+  
+  .imgpro {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .textoPara {
+    width: 25%;
+    font-family: Copperplate, Papyrus, fantasy;
+    align-self: center;
+    text-align: justify;
+    justify-content: center;
+  }
+  
+  .pregFreq {
+    font-family: "Times New Roman", Times, serif;
+    padding-left: 25px;
+  }
+  .respFreq {
+    font-family: Copperplate, Papyrus, fantasy;
+    text-align: left;
+    padding-left: 25px;
+    text-align: justify;
+    padding-right: 25px;
+  }
+  
+  .flex-form {
+    display: flex;
+    width: 40%;
+    font-family: Copperplate, Papyrus, fantasy;
+  }
+  
+  .cont {
+    text-align: center;
+  }
+  
+  .spacio {
+    text-align: justify;
+  }
+  
+  .hist {
+  }
+  
+  .parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  
+  .div1 {
+    grid-area: 1 / 1 / 6 / 2;
+  }
+  
+  .parentProducts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.25fr 0.25fr 1fr 0.75fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-areas:
+      "logo logo logo"
+      "barra barra barra"
+      "primerProd primerProd primerProd"
+      "segundoProd segundoProd segundoProd"
+      "tercerProd tercerProd tercerProd";
+  }
+  
+  .logo {
+  }
+  .barra {
+  }
+  .primerProd {
+    text-align: justify;
+    font-family: Copperplate, Papyrus, fantasy;
+  }
+  .segundoProd {
+    text-align: justify;
+    font-family: Copperplate, Papyrus, fantasy;
+  }
+  .tercerProd {
+    text-align: justify;
+    font-family: Copperplate, Papyrus, fantasy;
+  }
+  @media (min-width: 200px) {
+    .parentProducts {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "logo"
+        "barra"
+        "primerProd"
+        "segundoProd"
+        "tercerProd";
+    }
+  }
+  .imgpro {
+    max-width: 400px;
+    max-width: 400px;
+  }
+  
+  .parentFAQ {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.25fr 0.25fr 0.25fr 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-areas:
+  "logo"
+  "barra"
+  "preguntas";
+  }
+  
+  .parentContact{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.25fr 0.25fr 0.25fr 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-areas:
+  "logo"
+  "barra"
+  "textoContact"
+  "formContact";
+  
+  }
+  .formContact{
+    text-align: center;
+  }
+  
+  .parentHistoria{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.25fr 0.25fr 0.25fr 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-areas:
+  "logo"
+  "barra"
+  "historiaNosotros";
+  
+  }
+  
+  .historiaNosotros{
+    text-align: center;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  
+  .textoContact{
+    text-align: center;
+    padding-right: 25px;
+    padding-left: 25px;
+    text-align: justify;
+  }
+  
+  .textProdu{
+    padding-right: 25px;
+    padding-left: 25px;
+  
+  }
