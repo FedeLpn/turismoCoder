@@ -29,8 +29,8 @@
 
 html nav {
   height: 100%;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#33475b), color-stop(#7c91ce), color-stop(#b4acb1), to(#353232));
-  background-image: linear-gradient(to bottom right, #33475b, #7c91ce, #b4acb1, #353232);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#33475b), color-stop(#7c91ce), color-stop(#b4acb1), to(#796525));
+  background-image: linear-gradient(to bottom right, #33475b, #7c91ce, #b4acb1, #796525);
 }
 
 .fa {
@@ -66,8 +66,8 @@ html nav {
 
 html {
   height: 100%;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#33475b), color-stop(#7c91ce), color-stop(#b4acb1), to(#353232));
-  background-image: linear-gradient(to bottom right, #33475b, #7c91ce, #b4acb1, #353232);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#33475b), color-stop(#7c91ce), color-stop(#b4acb1), to(#796525));
+  background-image: linear-gradient(to bottom right, #33475b, #7c91ce, #b4acb1, #796525);
 }
 
 .atencion {
