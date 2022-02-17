@@ -2,6 +2,7 @@ body{
     background-color: map-get($colores , bg );
     nav{
         ul {
+            @extend %flexRow;
             li{
                 a{
                     background-color: map-get(colores , primario );
@@ -12,4 +13,9 @@ body{
             }
         }
     }
+    .container{
+        @include flexbox (column, space-between, nowrap);
+    }
 }
+
+
