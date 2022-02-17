@@ -74,29 +74,4 @@ html {
   padding-top: 20px;
   text-align: center;
 }
-
-/* Mapas
-$nombreDelMap: (
-    key: value,
-    key: value
-);
-
-each
-
-Extends
-
-%nombreExtend (
-    propiedad: valor;
-    propiedad: valor;
-)
-
-Mixins
-
-@mixin nombre ($variable1, $variable2){
-    contenido
-}
-
-if dentro de un mixing
-
-*/
 /*# sourceMappingURL=style.css.map */
