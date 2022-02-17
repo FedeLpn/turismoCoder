@@ -29,8 +29,8 @@
 
 html nav {
   height: 100%;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#33475b), color-stop(#7c91ce), color-stop(#b4acb1), to(#796525));
-  background-image: linear-gradient(to bottom right, #33475b, #7c91ce, #b4acb1, #796525);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#33475b), color-stop(#7ca9ce), color-stop(#32e4e4), to(#78c0dd));
+  background-image: linear-gradient(to bottom right, #33475b, #7ca9ce, #32e4e4, #78c0dd);
 }
 
 .fa {
@@ -74,4 +74,29 @@ html {
   padding-top: 20px;
   text-align: center;
 }
+
+/* Mapas
+$nombreDelMap: (
+    key: value,
+    key: value
+);
+
+each
+
+Extends
+
+%nombreExtend (
+    propiedad: valor;
+    propiedad: valor;
+)
+
+Mixins
+
+@mixin nombre ($variable1, $variable2){
+    contenido
+}
+
+if dentro de un mixing
+
+*/
 /*# sourceMappingURL=style.css.map */
